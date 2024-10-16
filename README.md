@@ -2,12 +2,12 @@
 # 基于你已经安装了docker版agd可以使用模板进行复制和上传，或者docker版自己配置
 
 1文件夹找到 /mnt/mmcblk2p4/adg/confdir1，
-![image](https://github.com/Namia-A/Two-docker-agd/assets/175184271/c275d575-1a96-4dd4-ab00-5e5840125875)
+![image](https://github.com/Namia-M/Two-docker-agd/assets/175184271/c275d575-1a96-4dd4-ab00-5e5840125875)
 上传AdGuardHome.yaml到confdir1此为docker的上传路径博主本人只是把它当作了第二分dns用作拦截国外广告
 
 2你已经下载了agd并且在服务里面找到了agd你可以直接复制AdGuardHome-cn.yaml此文件里面的
 并且在adg手动复制粘贴就行，
-![image](https://github.com/Namia-A/Two-docker-agd/assets/175184271/82e1b500-2ac5-4547-a5ec-c02238b762fb)
+![image](https://github.com/Namia-M/Two-docker-agd/assets/175184271/82e1b500-2ac5-4547-a5ec-c02238b762fb)
 
 ## 其他固件如X86下的op如要使用此脚本，还需要手动创建两个文件夹路径，然后继续运行脚本
 
