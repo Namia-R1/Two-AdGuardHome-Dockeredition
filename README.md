@@ -14,7 +14,7 @@
      
 这个命令适合N1下的openwrt直接创建
 
-     wget https://raw.githubusercontent.com/Namia-R/Two-docker-agd/main/adg.sh && sh adg.sh  
+     wget https://raw.githubusercontent.com/Namia-R1/Two-docker-agd/main/adg.sh && sh adg.sh  
 操作顺序
 
 3111100311
