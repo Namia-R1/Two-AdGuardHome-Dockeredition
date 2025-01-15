@@ -12,8 +12,8 @@
      
 这个命令适合N1下的openwrt直接创建
      wget https://raw.githubusercontent.com/Namia-R1/Two-docker-agd/main/adg.sh && sh adg.sh  
+     
 操作顺序
-
 3111100311
 
 #  [`悟空的日常`]( https://github.com/wukongdaily) 所撰写的iStore商店和设置向导 by [wukongdaily]
@@ -26,7 +26,6 @@
 # 广告规则
 
 国内纯ip，首选dns
-
      223.5.5.5
      119.29.29.29
      180.76.76.76
