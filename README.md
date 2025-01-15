@@ -1,9 +1,4 @@
-# 双AdGuardHome一键安装脚本docker版-及其https://github.com/wukongdaily-iStore和小白需要的设置向导 by [Namia-R]
-
-# 安装iStore商店(ARM64 & x86-64通用)
-     wget -qO imm.sh https://cafe.cpolar.top/wkdaily/zero3/raw/branch/main/zero3/imm.sh && chmod +x imm.sh && ./imm.sh
-# 安装网络向导和首页(ARM64 & x86-64通用)
-     is-opkg install luci-i18n-quickstart-zh-cn
+#  双AdGuardHome一键安装脚本docker版  by [Namia-R]
 
 # 基于你已经安装了docker版agd可以使用模板进行复制和上传，或者docker版自己配置
 
@@ -22,6 +17,13 @@
 操作顺序
 
 3111100311
+
+#  [`悟空的日常`]( https://github.com/wukongdaily) 所撰写的iStore商店和设置向导 by [wukongdaily]
+
+# 安装iStore商店(ARM64 & x86-64通用)
+     wget -qO imm.sh https://cafe.cpolar.top/wkdaily/zero3/raw/branch/main/zero3/imm.sh && chmod +x imm.sh && ./imm.sh
+# 安装网络向导和首页(ARM64 & x86-64通用)
+     is-opkg install luci-i18n-quickstart-zh-cn
 
 # 广告规则
 
