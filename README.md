@@ -1,4 +1,4 @@
-#  双AdGuardHome一键安装脚本docker版  by [Namia-R]
+#  双AdGuardHome一键安装脚本docker版  by [Namia-X]
 
 # 基于你已经安装了docker版agd可以使用模板进行复制和上传，或者docker版自己配置
 
