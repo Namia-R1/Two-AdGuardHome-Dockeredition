@@ -97,9 +97,6 @@ DNS 拦截
      https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
      https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
 
-自动更新DNS拦截规则
-
-     https://mirror.ghproxy.com/raw.githubusercontent.com/8680/GOODBYEADS/master/dns.txt
 自动更新DNS 白名单
 
      https://raw.githubusercontent.com/8680/GOODBYEADS/master/allow.txt
@@ -160,8 +157,8 @@ ADgk —— 适用于 AdGuard for Android 的去广告规则（不保证在其�
      严格版：https://raw.githubusercontent.com/zsakvo/AdGuard-Custom-Rule/master/rule/zhihu-strict.txt
 
 大圣净化 - 针对国内视频网站
-     https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
 
+     https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
 
 #  国外
 EasyList-去除国际网页中大多数广告，包括不需要的框架、图像和对象
