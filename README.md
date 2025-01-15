@@ -1,5 +1,10 @@
 # 双adg一键安装脚本docker版 by [Namia-R]
 
+# 安装iStore商店(ARM64 & x86-64通用)
+     wget -qO imm.sh https://cafe.cpolar.top/wkdaily/zero3/raw/branch/main/zero3/imm.sh && chmod +x imm.sh && ./imm.sh
+# 安装网络向导和首页(ARM64 & x86-64通用)
+     is-opkg install luci-i18n-quickstart-zh-cn
+
 ### 基于你已经安装了docker版agd可以使用模板进行复制和上传，或者docker版自己配置
 
 - 1 文件夹找到 /mnt/mmcblk2p4/adg/confdir1，上传AdGuardHome.yaml到confdir1此为docker版本配置yaml文件上传路径，博主本人只是把它当作了第二分dns用作拦截国外广告你可以自己找喜欢的dns去改变。
