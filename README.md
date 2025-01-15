@@ -160,7 +160,6 @@ ADgk —— 适用于 AdGuard for Android 的去广告规则（不保证在其�
      严格版：https://raw.githubusercontent.com/zsakvo/AdGuard-Custom-Rule/master/rule/zhihu-strict.txt
 
 大圣净化 - 针对国内视频网站
-
      https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
 
 
