@@ -1,4 +1,4 @@
-# 双adg一键安装脚本docker版 by [Namia-R]
+# 双adg一键安装脚本docker版-及其iStore by [Namia-R]
 
 # 安装iStore商店(ARM64 & x86-64通用)
      wget -qO imm.sh https://cafe.cpolar.top/wkdaily/zero3/raw/branch/main/zero3/imm.sh && chmod +x imm.sh && ./imm.sh
