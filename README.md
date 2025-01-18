@@ -98,10 +98,6 @@ DNS 拦截
      https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
      https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
 
-自动更新DNS 白名单
-
-     https://raw.githubusercontent.com/8680/GOODBYEADS/master/allow.txt
-
 广告拦截
 
      https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt
