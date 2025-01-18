@@ -13,7 +13,7 @@ http:
   session_ttl: 720h
 users:
   - name: root
-    password: $2a$10$8bEaNyX0fbUTKxH8jW.CMu9OUGxP4MRa5x5WkxYcVxJLcTcoHmVc6
+    password: $2a$10$ug4jIFjXXmh/yv4AFWEy5OdmfKxcAo.vkSB7HX9PWSLVQpHKh/7NW
 auth_attempts: 5
 block_auth_min: 15
 http_proxy: ""
@@ -24,12 +24,13 @@ dns:
     - 0.0.0.0
   port: 8554
   anonymize_client_ip: false
-  ratelimit: 0
+  ratelimit: 20
   ratelimit_subnet_len_ipv4: 24
   ratelimit_subnet_len_ipv6: 56
   ratelimit_whitelist: []
   refuse_any: true
   upstream_dns:
+    - https://doh.dns.sb/dns-query
     - https://dns.google/dns-query
     - https://dns.twnic.tw/dns-query
     - https://doh.opendns.com/dns-query
@@ -96,14 +97,14 @@ tls:
 querylog:
   dir_path: ""
   ignored: []
-  interval: 2160h
+  interval: 168h
   size_memory: 1000
   enabled: true
   file_enabled: true
 statistics:
   dir_path: ""
   ignored: []
-  interval: 24h
+  interval: 168h
   enabled: true
 filters:
   - enabled: true
@@ -116,24 +117,24 @@ filters:
     id: 2
   - enabled: true
     url: https://easylist-downloads.adblockplus.org/easylist.txt
-    name: EasyList-去除国际网页中大多数广告
-    id: 1720542717
+    name: EasyList-去除国际网页中大多数广告，包括不需要的框架、图像和对象
+    id: 1737211844
   - enabled: true
     url: https://www.i-dont-care-about-cookies.eu/abp/
     name: 屏蔽网站的 cookies 相关的警告
-    id: 1720542718
+    id: 1737211845
   - enabled: true
     url: https://winhelp2002.mvps.org/hosts.txt
     name: 屏蔽美欧地区英文网站相关的广告
-    id: 1720542719
+    id: 1737211846
   - enabled: true
     url: https://raw.githubusercontent.com/yous/YousList/master/hosts.txt
     name: 屏蔽韩国人使用的网站广告
-    id: 1720542720
+    id: 1737211847
   - enabled: true
     url: https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/skyrules.txt
-    name: 百万ADH广告拦截过滤国外规则
-    id: 1720542721
+    name: ADH广告拦截过滤国外规则
+    id: 1737211848
 whitelist_filters: []
 user_rules: []
 dhcp:
@@ -165,6 +166,7 @@ filtering:
     enabled: false
     bing: true
     duckduckgo: true
+    ecosia: true
     google: true
     pixabay: true
     yandex: true
@@ -173,6 +175,8 @@ filtering:
   parental_block_host: family-block.dns.adguard.com
   safebrowsing_block_host: standard-block.dns.adguard.com
   rewrites: []
+  safe_fs_patterns:
+    - /opt/adguardhome/work/userfilters/*
   safebrowsing_cache_size: 1048576
   safesearch_cache_size: 1048576
   parental_cache_size: 1048576
@@ -204,4 +208,4 @@ os:
   group: ""
   user: ""
   rlimit_nofile: 0
-schema_version: 28
+schema_version: 29
