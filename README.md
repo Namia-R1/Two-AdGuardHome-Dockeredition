@@ -102,10 +102,6 @@ DNS 拦截
 
      https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt
 
-广告终结者使用的拦截规则，基于ChinaList+EasyList修正
-
-     http://sub.adtchrome.com/adt-chinalist-easylist.txt
-
 屏蔽一些1024站的弹窗广告和辣鸡澳门赌场的广告
 
      https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts
@@ -142,10 +138,6 @@ Anti-AD —— 目前中文区命中率最高的广告过滤列表，实现了�
 ADgk —— 适用于 AdGuard for Android 的去广告规则（不保证在其他软件使用的效果）
 
      https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
-
-百度搜索结果内屏蔽百家号
-
-     https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt
 
 知乎过滤器 严格版
 
