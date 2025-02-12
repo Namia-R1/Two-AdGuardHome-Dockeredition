@@ -137,36 +137,85 @@
    - **服务商**：Quad9 DNS  
    - **特点**：Quad9 DNS的备用服务器，注重安全。
 
-国内加密，180，ip是百度除外
+在中国，使用加密DNS（DNS-over-HTTPS，简称DoH，或DNS-over-TLS，简称DoT）可以帮助提高隐私保护和安全性，防止DNS查询被劫持或监听。以下是一些适合国内用户使用的加密DNS服务及其配置方法：
 
-     https://doh.pub/dns-query
+---
+
+### **国内推荐的加密DNS服务**
+1. **阿里DNS（AliDNS）**  
+   - **DoH地址**：
+     ```
      https://dns.alidns.com/dns-query
-     https://doh.360.cn
-     180.76.76.76
+     ```
+   - **DoT地址**：
+     ```
+     dns.alidns.com
+     ```
 
-国外加密
+2. **腾讯DNS（DNSPod）**  
+   - **DoH地址**：
+     ```
+     https://doh.pub/dns-query
+     ```
+   - **DoT地址**：
+     ```
+     dot.pub
+     ```
 
-     https://dns.google/dns-query
-     https://dns.twnic.tw/dns-query
-     https://doh.opendns.com/dns-query
+3. **114DNS**  
+   - **DoH地址**：
+     ```
+     https://dns.114dns.com/dns-query
+     ```
+   - **DoT地址**：
+     ```
+     dns.114dns.com
+     ```
+
+4. **CNNIC DNS**  
+   - **DoH地址**：
+     ```
+     https://dns.cnnic.cn/dns-query
+     ```
+   - **DoT地址**：
+     ```
+     dns.cnnic.cn
+     ```
+
+---
+
+### **国际推荐的加密DNS服务**
+1. **Cloudflare DNS**  
+   - **DoH地址**：
+     ```
      https://cloudflare-dns.com/dns-query
+     ```
+   - **DoT地址**：
+     ```
+     one.one.one.one
+     ```
 
-日本dns
+2. **Google Public DNS**  
+   - **DoH地址**：
+     ```
+     https://dns.google/dns-query
+     ```
+   - **DoT地址**：
+     ```
+     dns.google
+     ```
 
-     https://doh.dns.sb/dns-query
+3. **Quad9 DNS**  
+   - **DoH地址**：
+     ```
+     https://dns.quad9.net/dns-query
+     ```
+   - **DoT地址**：
+     ```
+     dns.quad9.net
+     ```
 
-台湾dns
-
-     https://dns.twnic.tw/dns-query
-
-
-俄罗斯dns
-
-     https://common.dot.dns.yandex.net
-
-AdGuard dns
-
-     https://dns.adguard-dns.com/dns-query
+---
 
 国内
 
