@@ -100,8 +100,6 @@
 
 ---
 
----
-
 ### **国内推荐的加密DNS服务**
 以下是**国内**和**国外**的加密DNS（DNS-over-HTTPS，简称DoH，或DNS-over-TLS，简称DoT）分类列表，并标注了注释。
 
@@ -174,50 +172,72 @@ DNS 拦截
      https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
      https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
 
-广告拦截
 
-     https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/light.txt
+### **国内广告拦截规则**
+#### **基础规则**
+- **CJX's Annoyance List**：针对国内的广告和弹窗。
+  ```
+  https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
+  ```
 
-屏蔽一些1024站的弹窗广告和辣鸡澳门赌场的广告
+- **Anti-AD**：国内专用的广告拦截规则，覆盖广泛。
+  ```
+  https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt
+  ```
 
-     https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts
+#### **增强规则**
+- **AdGuard Chinese Filter**：AdGuard官方的中文过滤规则。
+  ```
+  https://filters.adtidy.org/extension/chromium/filters/224.txt
+  ```
 
-屏蔽一些中国视频网站的广告
+#### **隐私保护规则**
+- **EasyList China**：针对中国地区的广告拦截规则。
+  ```
+  https://easylist-downloads.adblockplus.org/easylistchina.txt
+  ```
 
-     https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
+---
 
-neoHosts-屏蔽 JS Miner 挖矿、百度全家桶的全天候定位记录、各类统计服务（仅屏蔽 JS、不屏蔽控制台）、常见下载劫持、360 和百度的部分软件下载、CNNIC 根证书劫持、法轮功、ISIS、银河联邦等可能令人反感的激进宗教内容网站
-标准版-# Basic 
+### **国外广告拦截规则**
+#### **基础规则**
+- **EasyList**：最常用的广告拦截规则，覆盖大多数广告。
+  ```
+  https://easylist.to/easylist/easylist.txt
+  ```
 
-     https://cdn.jsdelivr.net/gh/neoFelhz/neohosts@gh-pages/basic/hosts.txt 
+- **EasyPrivacy**：专注于隐私保护，屏蔽跟踪器。
+  ```
+  https://easylist.to/easylist/easyprivacy.txt
+  ```
 
-严格版-# Full
+#### **增强规则**
+- **Fanboy's Annoyance List**：屏蔽弹窗、社交媒体按钮等。
+  ```
+  https://easylist.to/easylist/fanboy-annoyance.txt
+  ```
 
-     https://cdn.jsdelivr.net/gh/neoFelhz/neohosts@gh-pages/full/hosts.txt 
+- **AdGuard Base Filter**：AdGuard官方的基础过滤规则。
+  ```
+  https://filters.adtidy.org/extension/chromium/filters/2.txt
+  ```
 
-yhosts-屏蔽绝大多数中国网站以及APP的广告
+#### **隐私保护规则**
+- **Peter Lowe's Ad and Tracking Server List**：屏蔽广告和跟踪服务器。
+  ```
+  https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=0&mimetype=plaintext
+  ```
 
-     https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts.txt
+#### **恶意网站拦截**
+- **Malware Domain List**：屏蔽恶意软件和钓鱼网站。
+  ```
+  https://mirror1.malwaredomains.com/files/justdomains
+  ```
 
-EasyList China —— EasyList针对国内的补充规则
+---
 
-     https://easylist-downloads.adblockplus.org/easylistchina.txt
 
-EasyPrivacy —— 从网络上上完全删除所有形式的跟踪，包括Web错误、跟踪脚本和信息收集，从而保护您的个人数据
 
-     https://easylist-downloads.adblockplus.org/easyprivacy.txt
-
-Anti-AD —— 目前中文区命中率最高的广告过滤列表，实现了精确的广告屏蔽和隐私保护。屏蔽广告域名、电视盒子广告、APP内置广告
-
-     https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt
-
-ADgk —— 适用于 AdGuard for Android 的去广告规则（不保证在其他软件使用的效果）
-
-     https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
-
-大圣净化 - 针对国内视频网站
-
-     https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
 
 #  国外
 EasyList-去除国际网页中大多数广告，包括不需要的框架、图像和对象
