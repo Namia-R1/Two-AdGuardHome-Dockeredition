@@ -236,26 +236,50 @@ DNS 拦截
 
 ---
 
+### **1. 常用视频广告拦截规则**
+#### **YouTube广告拦截**
+- **AdGuard YouTube Filter**：
+  ```
+  https://filters.adtidy.org/extension/chromium/filters/17.txt
+  ```
+  - 特点：AdGuard官方的YouTube广告拦截规则。
 
+- **uBlock Filters – Annoyances**：
+  ```
+  https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/annoyances.txt
+  ```
+  - 特点：屏蔽YouTube广告和其他烦人内容。
 
+- **YouTube AdBlock List**：
+  ```
+  https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_YoutubeAds/filter.txt
+  ```
+  - 特点：专注于屏蔽YouTube广告。
 
-#  国外
-EasyList-去除国际网页中大多数广告，包括不需要的框架、图像和对象
+#### **国内视频广告拦截**
+- **CJX's Annoyance List**：
+  ```
+  https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
+  ```
+  - 特点：针对国内视频网站（如优酷、爱奇艺）的广告拦截。
 
-     https://easylist-downloads.adblockplus.org/easylist.txt
+- **Anti-AD**：
+  ```
+  https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt
+  ```
+  - 特点：国内专用的广告拦截规则，覆盖视频广告。
 
-屏蔽网站的 cookies 相关的警告
+#### **国际视频广告拦截**
+- **Fanboy's Annoyance List**：
+  ```
+  https://easylist.to/easylist/fanboy-annoyance.txt
+  ```
+  - 特点：屏蔽国际视频网站（如YouTube、Twitch）的广告。
 
-     https://www.i-dont-care-about-cookies.eu/abp/
+- **AdGuard Base Filter**：
+  ```
+  https://filters.adtidy.org/extension/chromium/filters/2.txt
+  ```
+  - 特点：AdGuard官方的基础过滤规则，覆盖视频广告。
 
-屏蔽美欧地区英文网站相关的广告
-
-     https://winhelp2002.mvps.org/hosts.txt
-
-屏蔽韩国人使用的网站广告
-
-     https://raw.githubusercontent.com/yous/YousList/master/hosts.txt
-
-ADH广告拦截过滤国外规则
-
-     https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/skyrules.txt
+---
