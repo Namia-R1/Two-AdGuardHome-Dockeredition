@@ -100,85 +100,63 @@
 
 ---
 
+---
+
+### **国内推荐的加密DNS服务**
+以下是**国内**和**国外**的加密DNS（DNS-over-HTTPS，简称DoH，或DNS-over-TLS，简称DoT）分类列表，并标注了注释。
+
+---
+
+### **国内加密DNS**
+```plaintext
+# 阿里DNS（AliDNS）
+- DoH: https://dns.alidns.com/dns-query
+- DoT: dns.alidns.com
+
+# 腾讯DNS（DNSPod）
+- DoH: https://doh.pub/dns-query
+- DoT: dot.pub
+
+# 114DNS
+- DoH: https://dns.114dns.com/dns-query
+- DoT: dns.114dns.com
+
+# CNNIC DNS
+- DoH: https://dns.cnnic.cn/dns-query
+- DoT: dns.cnnic.cn
+```
+
+---
+
+### **国外加密DNS**
+```plaintext
+# Cloudflare DNS
+- DoH: https://cloudflare-dns.com/dns-query
+- DoT: one.one.one.one
+
+# Google Public DNS
+- DoH: https://dns.google/dns-query
+- DoT: dns.google
+
+# Quad9 DNS
+- DoH: https://dns.quad9.net/dns-query
+- DoT: dns.quad9.net
+
+# AdGuard DNS
+- DoH: https://dns.adguard.com/dns-query
+- DoT: dns.adguard.com
+
+# OpenDNS
+- DoH: https://doh.opendns.com/dns-query
+- DoT: dot.opendns.com
+```
+
+---
+
 ### **使用说明**
 1. **国内DNS**：适合访问国内网站，速度快，推荐阿里DNS、腾讯DNS、114DNS。
 2. **国外DNS**：适合访问国际网站，隐私保护强，推荐Cloudflare DNS、Google DNS。
 3. **失效DNS**：不建议使用。
-
----
-### **国内推荐的加密DNS服务**
-1. **阿里DNS（AliDNS）**  
-   - **DoH地址**：
-     ```
-     https://dns.alidns.com/dns-query
-     ```
-   - **DoT地址**：
-     ```
-     dns.alidns.com
-     ```
-
-2. **腾讯DNS（DNSPod）**  
-   - **DoH地址**：
-     ```
-     https://doh.pub/dns-query
-     ```
-   - **DoT地址**：
-     ```
-     dot.pub
-     ```
-
-3. **114DNS**  
-   - **DoH地址**：
-     ```
-     https://dns.114dns.com/dns-query
-     ```
-   - **DoT地址**：
-     ```
-     dns.114dns.com
-     ```
-
-4. **CNNIC DNS**  
-   - **DoH地址**：
-     ```
-     https://dns.cnnic.cn/dns-query
-     ```
-   - **DoT地址**：
-     ```
-     dns.cnnic.cn
-     ```
-
----
-
-### **国际推荐的加密DNS服务**
-1. **Cloudflare DNS**  
-   - **DoH地址**：
-     ```
-     https://cloudflare-dns.com/dns-query
-     ```
-   - **DoT地址**：
-     ```
-     one.one.one.one
-     ```
-
-2. **Google Public DNS**  
-   - **DoH地址**：
-     ```
-     https://dns.google/dns-query
-     ```
-   - **DoT地址**：
-     ```
-     dns.google
-     ```
-
-3. **Quad9 DNS**  
-   - **DoH地址**：
-     ```
-     https://dns.quad9.net/dns-query
-     ```
-   - **DoT地址**：
-     ```
-     dns.quad9.net
-     ```
 
 ---
 
