@@ -19,14 +19,19 @@
 
 操作顺序
 ---
+
 3111100311
 
+---
 ### **[`悟空的日常`]( https://github.com/wukongdaily) 所撰写的iStore商店和设置向导 by [wukongdaily]**
 
 ### **安装iStore商店(ARM64 & x86-64通用)**
 ---
      wget -qO imm.sh https://cafe.cpolar.top/wkdaily/zero3/raw/branch/main/zero3/imm.sh && chmod +x imm.sh && ./imm.sh
+     
+---
 ### **安装网络向导和首页(ARM64 & x86-64通用)**
+
 ---
      is-opkg install luci-i18n-quickstart-zh-cn
      
