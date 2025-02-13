@@ -194,9 +194,11 @@ DNS 拦截
   https://easylist-downloads.adblockplus.org/easylistchina.txt
   ```
 - **百万ADH广告拦截过滤规则
+  ```
   https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/all.txt
 
 - **DNS 拦截
+  ```
   https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
   https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
   
