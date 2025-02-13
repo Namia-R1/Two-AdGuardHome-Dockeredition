@@ -173,17 +173,6 @@
 
 ---
 
-国内
-
-百万ADH广告拦截过滤规则
-
-     https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/all.txt
-
-DNS 拦截
-
-     https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-     https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-
 ### **国内广告拦截规则**
 #### **基础规则**
 - **CJX's Annoyance List**：针对国内的广告和弹窗。
@@ -195,6 +184,8 @@ DNS 拦截
   ```
   https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt
   ```
+
+---
 
 #### **增强规则**
 - **AdGuard Chinese Filter**：AdGuard官方的中文过滤规则。
@@ -213,7 +204,8 @@ DNS 拦截
   ```
   https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
   https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
-  
+---
+
 ---
 
 ### **国外广告拦截规则**
@@ -227,7 +219,9 @@ DNS 拦截
   ```
   https://easylist.to/easylist/easyprivacy.txt
   ```
+---
 
+---
 #### **增强规则**
 - **Fanboy's Annoyance List**：屏蔽弹窗、社交媒体按钮等。
   ```
@@ -238,6 +232,9 @@ DNS 拦截
   ```
   https://filters.adtidy.org/extension/chromium/filters/2.txt
   ```
+---
+
+---
 
 #### **隐私保护规则**
 - **Peter Lowe's Ad and Tracking Server List**：屏蔽广告和跟踪服务器。
@@ -245,6 +242,9 @@ DNS 拦截
   https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=0&mimetype=plaintext
   ```
 
+---
+
+---
 #### **恶意网站拦截**
 - **Malware Domain List**：屏蔽恶意软件和钓鱼网站。
   ```
@@ -287,6 +287,7 @@ DNS 拦截
 
 ---
 
+---
 #### **国内视频广告拦截**
 - **CJX's Annoyance List**：
   ```
@@ -300,3 +301,4 @@ DNS 拦截
   ```
   - 特点：国内专用的广告拦截规则，覆盖视频广告。
 
+---
