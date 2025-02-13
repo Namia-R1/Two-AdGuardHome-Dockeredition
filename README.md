@@ -172,7 +172,6 @@ DNS 拦截
      https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
      https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
 
-
 ### **国内广告拦截规则**
 #### **基础规则**
 - **CJX's Annoyance List**：针对国内的广告和弹窗。
@@ -190,13 +189,17 @@ DNS 拦截
   ```
   https://filters.adtidy.org/extension/chromium/filters/224.txt
   ```
-
-#### **隐私保护规则**
 - **EasyList China**：针对中国地区的广告拦截规则。
   ```
   https://easylist-downloads.adblockplus.org/easylistchina.txt
   ```
+- **百万ADH广告拦截过滤规则
+  https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/all.txt
 
+- **DNS 拦截
+  https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
+  https://mirror.ghproxy.com/https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
+  
 ---
 
 ### **国外广告拦截规则**
@@ -256,20 +259,6 @@ DNS 拦截
   ```
   - 特点：专注于屏蔽YouTube广告。
 
-#### **国内视频广告拦截**
-- **CJX's Annoyance List**：
-  ```
-  https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
-  ```
-  - 特点：针对国内视频网站（如优酷、爱奇艺）的广告拦截。
-
-- **Anti-AD**：
-  ```
-  https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt
-  ```
-  - 特点：国内专用的广告拦截规则，覆盖视频广告。
-
-#### **国际视频广告拦截**
 - **Fanboy's Annoyance List**：
   ```
   https://easylist.to/easylist/fanboy-annoyance.txt
@@ -283,3 +272,17 @@ DNS 拦截
   - 特点：AdGuard官方的基础过滤规则，覆盖视频广告。
 
 ---
+
+#### **国内视频广告拦截**
+- **CJX's Annoyance List**：
+  ```
+  https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
+  ```
+  - 特点：针对国内视频网站（如优酷、爱奇艺）的广告拦截。
+
+- **Anti-AD**：
+  ```
+  https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt
+  ```
+  - 特点：国内专用的广告拦截规则，覆盖视频广告。
+
