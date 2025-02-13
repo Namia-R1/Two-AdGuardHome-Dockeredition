@@ -23,9 +23,9 @@
      wget -qO imm.sh https://cafe.cpolar.top/wkdaily/zero3/raw/branch/main/zero3/imm.sh && chmod +x imm.sh && ./imm.sh
 ### **安装网络向导和首页(ARM64 & x86-64通用)**
      is-opkg install luci-i18n-quickstart-zh-cn
+---
 
-以下是你提供的DNS服务器列表，按**国内**和**国外**分类，并标注了注释，方便你复制和使用：
-
+以下是博主提供的DNS服务器列表，按**国内**和**国外**分类。
 ---
 
 ### **国内DNS服务器**
