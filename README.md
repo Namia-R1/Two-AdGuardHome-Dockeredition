@@ -1,13 +1,13 @@
 #  双AdGuardHome一键安装脚本及docker AdGuardHome一键安装版  by [Namia-X]
 
-### **基于你已经安装了docker版agd可以使用模板进行复制和上传，或者docker版自己配置
+### **基于你已经安装了docker版agd可以使用模板进行复制和上传，或者docker版自己配置**
 
 - 1 文件夹找到 /mnt/mmcblk2p4/adg/confdir1，上传AdGuardHome.yaml到confdir1此为docker版本配置yaml文件上传路径，博主本人只是把它当作了第二分dns用作拦截国内外广告你可以自己找喜欢的dns去改变，如有失效的请提交出来我，我去补充。
 - 2 你已经下载了agd并且在服务里面找到了agd你可以直接复制AdGuardHome-cn.yaml此文件里面的，在adg模板手动复制粘贴就行。
 - 3 搭配mosdns或者smtdns运行，插件包的agd不作为dns服务器选择无，如果你用我模版记得看对应端口转发和访问端口转发如果不喜欢自行改。
 - 4不需要删掉固件自带的agd，你不嫌麻烦可以全docker板agd。
 
-### **其他固件如X86和RK瑞芯微处理器下的op如要使用此脚本，还需要手动创建两个文件夹路径，然后继续运行脚本
+### **其他固件如X86和RK瑞芯微处理器下的op如要使用此脚本，还需要手动创建两个文件夹路径，然后继续运行脚本**
      mkdir -p /mnt/mmcblk2p4/adg
      
 这个命令适合N1下的openwrt直接创建
@@ -17,11 +17,11 @@
 操作顺序
 3111100311
 
-### **[`悟空的日常`]( https://github.com/wukongdaily) 所撰写的iStore商店和设置向导 by [wukongdaily]
+### **[`悟空的日常`]( https://github.com/wukongdaily) 所撰写的iStore商店和设置向导 by [wukongdaily]**
 
-### **安装iStore商店(ARM64 & x86-64通用)
+### **安装iStore商店(ARM64 & x86-64通用)**
      wget -qO imm.sh https://cafe.cpolar.top/wkdaily/zero3/raw/branch/main/zero3/imm.sh && chmod +x imm.sh && ./imm.sh
-### **安装网络向导和首页(ARM64 & x86-64通用)
+### **安装网络向导和首页(ARM64 & x86-64通用)**
      is-opkg install luci-i18n-quickstart-zh-cn
 
 以下是你提供的DNS服务器列表，按**国内**和**国外**分类，并标注了注释，方便你复制和使用：
