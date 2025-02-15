@@ -30,11 +30,11 @@ dns:
   ratelimit_whitelist: []
   refuse_any: true
   upstream_dns:
-    - https://doh.dns.sb/dns-query
-    - https://dns.google/dns-query
-    - https://dns.twnic.tw/dns-query
-    - https://doh.opendns.com/dns-query
     - https://cloudflare-dns.com/dns-query
+    - https://dns.google/dns-query
+    - https://dns.quad9.net/dns-query
+    - https://dns.adguard.com/dns-query
+    - https://doh.opendns.com/dns-query
   upstream_dns_file: ""
   bootstrap_dns:
     - 9.9.9.10
@@ -108,32 +108,32 @@ statistics:
   enabled: true
 filters:
   - enabled: true
-    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
-    name: AdGuard DNS filter
+    url: hhttps://easylist.to/easylist/easylist.txt
+    name: 最常用的广告拦截规则，覆盖大多数广告
     id: 1
   - enabled: true
-    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt
-    name: AdAway Default Blocklist
+    url: https://easylist.to/easylist/easyprivacy.txt
+    name: 专注于隐私保护，屏蔽跟踪器。
     id: 2
   - enabled: true
-    url: https://easylist-downloads.adblockplus.org/easylist.txt
-    name: EasyList-去除国际网页中大多数广告，包括不需要的框架、图像和对象
+    url: https://mirror1.malwaredomains.com/files/justdomains
+    name: 屏蔽恶意软件和钓鱼网站
     id: 1737211844
   - enabled: true
-    url: https://www.i-dont-care-about-cookies.eu/abp/
+    url: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=0&mimetype=plaintext
     name: 屏蔽网站的 cookies 相关的警告
     id: 1737211845
   - enabled: true
     url: https://winhelp2002.mvps.org/hosts.txt
-    name: 屏蔽美欧地区英文网站相关的广告
+    name: 屏蔽广告和跟踪服务器
     id: 1737211846
   - enabled: true
-    url: https://raw.githubusercontent.com/yous/YousList/master/hosts.txt
-    name: 屏蔽韩国人使用的网站广告
+    url: https://filters.adtidy.org/extension/chromium/filters/2.txt
+    name: AdGuard官方的基础过滤规则
     id: 1737211847
   - enabled: true
-    url: https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/skyrules.txt
-    name: ADH广告拦截过滤国外规则
+    url: https://easylist.to/easylist/fanboy-annoyance.txt
+    name: 屏蔽弹窗、社交媒体按钮等。
     id: 1737211848
 whitelist_filters: []
 user_rules: []
