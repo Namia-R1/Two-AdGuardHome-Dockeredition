@@ -103,31 +103,31 @@ filters:
   - enabled: true
     url: https://filters.adtidy.org/extension/chromium/filters/17.txt
     name: YouTube广告拦截
-    id: 1
+    id: 1737211841
   - enabled: true
     url: https://easylist.to/easylist/easyprivacy.txt
     name: 专注于隐私保护，屏蔽跟踪器。
-    id: 2
+    id: 1737211842
   - enabled: true
     url: https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/annoyances.txt
     name: 屏蔽YouTube广告和其他烦人内容
-    id: 1737211844
+    id: 1737211843
   - enabled: true
     url: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=0&mimetype=plaintext
     name: 屏蔽网站的 cookies 相关的警告
-    id: 1737211845
+    id: 1737211844
   - enabled: true
     url: https://winhelp2002.mvps.org/hosts.txt
     name: 屏蔽广告和跟踪服务器
-    id: 1737211846
+    id: 1737211845
   - enabled: true
     url: https://filters.adtidy.org/extension/chromium/filters/2.txt
     name: AdGuard官方的基础过滤规则
-    id: 1737211847
+    id: 1737211846
   - enabled: true
     url: https://easylist.to/easylist/fanboy-annoyance.txt
     name: 屏蔽弹窗、社交媒体按钮等。
-    id: 1737211848
+    id: 1737211847
 whitelist_filters: []
 user_rules: []
 dhcp:
